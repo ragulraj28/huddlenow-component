@@ -1,0 +1,29 @@
+.main-content {
+
+    @apply max-h-screen;
+
+}
+
+.section {
+
+    @apply p-10 w-full overflow-y-auto;
+  
+}
+
+.container {
+  
+    @apply mx-auto;
+
+}
+
+.main-content {
+
+    @apply flex;
+
+    .content {
+
+        @apply flex-1;
+
+    }
+    
+}

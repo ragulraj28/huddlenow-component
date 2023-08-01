@@ -1,0 +1,16 @@
+/* tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'global.scss';
+@import 'layout.scss';
+
+@import 'components/create-template.scss';
+@import 'components/header.scss';
+@import 'components/sidebar.scss';
+@import 'components/template-block-details.scss';
+@import 'components/template-block.scss';
+
+@import 'pages/layout.scss';
+@import 'pages/template-block-page.scss';

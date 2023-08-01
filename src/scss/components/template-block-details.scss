@@ -1,0 +1,43 @@
+.template-block-details {
+
+    .block-head {
+
+        @apply flex items-center justify-between;
+
+        .title {
+
+            @apply text-xl font-medium text-gray-600 dark:text-gray-200;
+
+        }
+
+        .time {
+
+            @apply text-base text-gray-400;
+
+        }
+
+    }
+
+    .block-body {
+
+        @apply mt-5;
+
+        .excerpt {
+
+            p {
+
+                @apply text-lg text-gray-500 dark:text-gray-300 line-clamp-3;
+
+            }
+
+        }
+
+    }
+
+}
+
+.template-block-details + .template-block-details {
+
+    @apply mt-5;
+
+}
