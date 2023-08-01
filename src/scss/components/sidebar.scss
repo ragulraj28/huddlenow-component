@@ -1,0 +1,21 @@
+.sidebar {
+
+    @apply bg-blue-500 text-white w-fit h-screen dark:bg-gray-900 overflow-y-auto;
+
+    .container {
+
+        @apply px-0;
+
+    }
+
+    li {
+
+        a {
+
+            @apply block py-5 px-7 cursor-pointer font-medium text-xl hover:bg-blue-600;
+
+        }
+
+    }
+
+}

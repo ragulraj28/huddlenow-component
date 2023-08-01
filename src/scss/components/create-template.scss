@@ -1,0 +1,97 @@
+.create-temp {
+
+    @apply w-full p-5 border border-gray-200 dark:border-gray-700 rounded-lg;
+
+    .create-temp-header {
+
+        @apply flex items-center mb-5;
+
+        .temp-title {
+
+            @apply flex gap-2.5 w-full;
+
+            input {
+
+                @apply w-full bg-transparent text-gray-600 dark:text-white;
+            
+                &::placeholder {
+
+                    @apply text-xl text-gray-600 dark:text-white font-medium;
+                    
+                }
+
+                &:focus {
+
+                    @apply hidden;
+
+                }
+
+            }
+
+        }
+
+        .config-col {
+
+            @apply flex p-2 border border-gray-200 dark:border-gray-700 rounded-md;
+
+            div + div {
+
+                @apply pl-2.5 ml-2.5 border-l border-gray-200 dark:border-gray-700;
+
+            }
+
+            .icon-clock {
+
+                svg {
+
+                    path {
+
+                        @apply dark:stroke-gray-300;
+
+                    }
+
+                }
+
+            }
+
+            .icon-delete {
+
+                &.disabled {
+
+                    svg {
+
+                        path {
+
+                            @apply stroke-gray-300 dark:stroke-gray-500;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .create-temp-content {
+
+        @apply h-full;
+
+        textarea {
+
+            @apply w-full resize-none bg-transparent overflow-y-auto;
+
+            &:focus {
+
+                @apply hidden;
+                
+            }
+
+        }
+
+    }
+
+}
