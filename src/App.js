@@ -3,11 +3,9 @@ import Header from './components/header';
 import Sidebar from './components/sidebar';
 import ButtonGroup from './pages/button-group';
 import Checkboxes from './pages/checkboxes';
-import Durationtimer from './components/blockDurationTimer';
 import EmptyState from './pages/empty-state';
 import FormFields from './pages/form-fields';
 import Layout from './pages/layout';
-import SearchFields from './pages/search-fields';
 import Toggles from './pages/toggles';
 import CreateTemplates from './pages/create-templates';
 import TemplateBlocks from './pages/template-block';
@@ -42,8 +40,6 @@ function App() {
             <Route path="/checkboxes" element={<Checkboxes />} />
 
             <Route path="/duration-timer" element={<DurationTimerPage />} />
-
-            <Route path="/search-fields" element={<SearchFields />} />
 
             <Route path="/toggles" element={<Toggles />} />
             

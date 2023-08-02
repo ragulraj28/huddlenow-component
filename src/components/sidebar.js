@@ -39,18 +39,17 @@ const Sidebar = () => {
                 </li>
 
                 <li>
-                    <Link to="/search-fields">Search fields</Link>
+                    <Link to="/toggles">Toggles</Link>
                 </li>
 
                 <li>
-                    <Link to="/toggles">Toggles</Link>
-                </li>
-                <li>
                     <Link to="/create-templates">Create templates</Link>
                 </li>
+
                 <li>
                     <Link to="/template-block">Template block</Link>
                 </li>
+                
                 <li>
                     <Link to="/template-block-details">Template block details</Link>
                 </li>
