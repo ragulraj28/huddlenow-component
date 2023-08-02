@@ -1,0 +1,33 @@
+.searchbar {
+
+    @apply flex items-center gap-2 w-auto border border-gray-200 dark:border-gray-700 px-2.5 rounded-md h-9;
+
+    .icon {
+
+        svg {
+
+            @apply h-4 w-4 stroke-gray-500 dark:stroke-gray-400;
+
+        }
+
+    }
+
+    input {
+
+        @apply text-sm text-gray-600 dark:text-gray-300 capitalize h-full w-full bg-transparent cursor-text;
+
+        &::placeholder {
+
+            @apply text-gray-400;
+
+        }
+
+        &:focus {
+
+            @apply hidden;
+
+        }
+
+    }
+
+}

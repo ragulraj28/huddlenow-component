@@ -1,0 +1,28 @@
+.toggle-switch {
+
+    input[type="checkbox"] {
+
+        @apply relative outline-none border-none m-0 appearance-none w-9 h-6 cursor-pointer rounded-full bg-gray-300;
+    
+        &::before {
+    
+            @apply content-[''] absolute w-4 h-4 top-1 left-1 right-1 bg-white rounded-full;
+        
+        }
+    
+        &:checked {
+    
+            @apply bg-green-500 shadow-xl;
+    
+            &::before {
+    
+                transform: translateX(75%);
+                margin: 0;
+                
+            }
+            
+        }
+    
+    }
+    
+}

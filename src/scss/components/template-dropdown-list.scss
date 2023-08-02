@@ -1,0 +1,90 @@
+.template-dropdown-list {
+
+    @apply w-64 h-fit bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg shadow-sm;
+
+    .category-wrapper {
+
+        @apply p-5 flex flex-col gap-5;
+
+        .temp-category {
+
+            @apply flex items-center;
+
+            p {
+
+                @apply mr-2.5 w-full text-base text-gray-700 dark:text-gray-300;
+
+            }
+
+            input {
+
+                @apply relative h-5 w-5 appearance-none;
+
+                &:before {
+
+                    @apply absolute right-0 content-[''] h-5 w-5 bg-transparent border border-gray-200 dark:border-gray-600 rounded-sm;
+
+                }
+
+                &:checked {
+
+                    &:after {
+
+                        content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxNCAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy42OTQ3IDAuMjkyNzg3QzEzLjg4MjIgMC40ODAzMTQgMTMuOTg3NSAwLjczNDYyMiAxMy45ODc1IDAuOTk5Nzg2QzEzLjk4NzUgMS4yNjQ5NSAxMy44ODIyIDEuNTE5MjYgMTMuNjk0NyAxLjcwNjc5TDUuNjk0NzEgOS43MDY3OUM1LjUwNzE4IDkuODk0MjYgNS4yNTI4OCA5Ljk5OTU3IDQuOTg3NzEgOS45OTk1N0M0LjcyMjU1IDkuOTk5NTcgNC40NjgyNCA5Ljg5NDI2IDQuMjgwNzEgOS43MDY3OUwwLjI4MDcxMiA1LjcwNjc5QzAuMDk4NTUzNyA1LjUxODE4IC0wLjAwMjI0MDYyIDUuMjY1NTggMy43ODAyNmUtMDUgNS4wMDMzOUMwLjAwMjMxNjIyIDQuNzQxMTkgMC4xMDc0ODUgNC40OTAzOCAwLjI5Mjg5MyA0LjMwNDk3QzAuNDc4MzAxIDQuMTE5NTYgMC43MjkxMTQgNC4wMTQzOSAwLjk5MTMxIDQuMDEyMTFDMS4yNTM1MSA0LjAwOTgzIDEuNTA2MTEgNC4xMTA2MyAxLjY5NDcxIDQuMjkyNzlMNC45ODc3MSA3LjU4NTc5TDEyLjI4MDcgMC4yOTI3ODdDMTIuNDY4MiAwLjEwNTMxNiAxMi43MjI1IDAgMTIuOTg3NyAwQzEzLjI1MjkgMCAxMy41MDcyIDAuMTA1MzE2IDEzLjY5NDcgMC4yOTI3ODdaIiBmaWxsPSIjMTBCOTgxIi8+Cjwvc3ZnPgo=");
+                        
+                        @apply z-10 absolute right-[3px] top-[-2px];
+
+                    }
+
+                    &:before {
+
+                        @apply bg-emerald-50 dark:bg-transparent border-emerald-500;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .divider {
+
+            @apply h-[1px] bg-gray-200 dark:bg-gray-600;
+
+        }
+
+    }
+
+    .cta {
+
+        @apply flex border-t border-gray-200 dark:border-gray-600;
+
+        .cta-btn {
+
+            @apply h-10 flex items-center justify-center w-full cursor-pointer;
+
+            svg {
+
+                @apply mr-1;
+
+            }
+
+            &.cta-clear {
+
+                @apply border-r border-gray-200 dark:border-gray-600 text-red-500 dark:text-gray-300 bg-red-50 dark:bg-transparent;
+    
+            }
+    
+            &.cta-apply {
+    
+                @apply text-emerald-500 dark:text-gray-300 bg-emerald-50 dark:bg-transparent;
+    
+            }
+
+        }
+
+        
+    }
+
+}

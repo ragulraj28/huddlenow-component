@@ -1,0 +1,73 @@
+.duration-timer-card {
+
+    @apply p-3 bg-white dark:bg-gray-700 w-fit h-24 rounded border border-gray-200 dark:border-gray-600 inline-flex flex-col gap-1;
+
+    .time-label {
+
+        @apply text-sm text-gray-600 dark:text-gray-300;
+
+    }
+
+    .timer-wrapper {
+
+        @apply flex gap-2 items-center;
+
+        .timer {
+
+            @apply flex border border-gray-200 dark:border-gray-600 rounded;
+
+            .btn {
+
+                @apply outline-none h-8 w-8 p-1;
+
+                svg {
+
+                    @apply w-full stroke-gray-500 dark:stroke-gray-400;
+
+                }
+
+                &.disabled {
+
+                    svg {
+
+                        @apply stroke-gray-300 dark:stroke-gray-600;
+
+                    }
+                }
+            }
+
+            input[type=number] {
+
+                @apply h-8 w-8 p-1 border-l text-center border-r border-gray-200 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 outline-none;
+
+            }
+
+            input[type=number]::-webkit-inner-spin-button, 
+            input[type=number]::-webkit-outer-spin-button { 
+
+                @apply m-0 appearance-none;
+
+            }
+
+        }
+        
+        .action-icons {
+
+            @apply flex items-center gap-1;
+
+            .icon {
+
+                @apply cursor-pointer;
+
+            }
+
+        }
+    }
+
+    .max-limit-info {
+
+        @apply text-sm text-red-500;
+
+    }
+
+}

@@ -13,8 +13,13 @@ const Sidebar = () => {
                 <li>
                     <Link to="/layout">Layout</Link>
                 </li>
+
                 <li>
                     <Link to="/empty-state">Empty state</Link>
+                </li>
+
+                <li>
+                    <Link to="/filters">Filters</Link>
                 </li>
 
                 <li>
@@ -27,6 +32,10 @@ const Sidebar = () => {
 
                 <li>
                     <Link to="/checkboxes">Checkboxes</Link>
+                </li>
+
+                <li>
+                    <Link to="/duration-timer">Duration Timer</Link>
                 </li>
 
                 <li>

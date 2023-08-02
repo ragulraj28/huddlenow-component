@@ -6,7 +6,7 @@ const TemplateBlocks = () => {
 
     return (
 
-        <div className='section template-block'><TemplateBlock />
+        <div className='section template-blocks'><TemplateBlock />
         
             <code>
                 

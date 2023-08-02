@@ -1,12 +1,12 @@
 import React from 'react';
 
-const TemplateBlockdetail = () => {
+const Blockdetails = () => {
 
     return (
 
-        <div className="template-block-details">
+        <div className="template-card-details">
 
-            <div className="block-head">
+            <div className="card-head">
 
                 <h3 className="title">Catch-up call</h3>
 
@@ -14,7 +14,7 @@ const TemplateBlockdetail = () => {
 
             </div>
 
-            <div className="block-body">
+            <div className="card-body">
 
                 <div className="excerpt">
 
@@ -30,4 +30,4 @@ const TemplateBlockdetail = () => {
 
 }
 
-export default TemplateBlockdetail;
+export default Blockdetails;

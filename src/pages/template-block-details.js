@@ -1,12 +1,12 @@
 import React from 'react';
 
-import TemplateBlockdetail from '../components/templateBlockDetail';
+import Blockdetails from '../components/blockDetail';
 
 const TemplateBlockDetails = () => {
 
     return (
 
-        <div className='section'><TemplateBlockdetail /></div>
+        <div className='section'><Blockdetails /></div>
 
     );
 

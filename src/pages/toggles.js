@@ -1,10 +1,11 @@
 import React from 'react';
+import Toggle from '../components/toggle';
 
 const Toggles = () => {
 
     return (
 
-        <div className='section'>Toggles</div>
+        <div className='section'><Toggle /></div>
 
     );
 

@@ -1,8 +1,8 @@
-.template-block-details {
+.template-card-details {
 
-    .block-head {
+    .card-head {
 
-        @apply flex items-center justify-between;
+        @apply flex items-center justify-between gap-5;
 
         .title {
 
@@ -12,13 +12,13 @@
 
         .time {
 
-            @apply text-base text-gray-400;
+            @apply text-base whitespace-nowrap text-gray-400;
 
         }
 
     }
 
-    .block-body {
+    .card-body {
 
         @apply mt-5;
 
@@ -36,7 +36,7 @@
 
 }
 
-.template-block-details + .template-block-details {
+.template-card-details + .template-card-details {
 
     @apply mt-5;
 

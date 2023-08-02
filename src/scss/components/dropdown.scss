@@ -1,0 +1,31 @@
+.dropdown {
+
+    @apply flex items-center px-2.5 py-2 border border-gray-200 dark:border-gray-700 rounded-md gap-2.5 h-9;
+
+    .label {
+
+        @apply w-full text-sm text-gray-400;
+
+    }
+
+    .icon {
+
+        svg {
+
+            @apply stroke-gray-300 dark:stroke-gray-400 h-4 w-4;
+
+        }
+
+        &.clicked {
+
+            svg {
+
+                @apply rotate-180;
+
+            }
+
+        }
+
+    }
+
+}

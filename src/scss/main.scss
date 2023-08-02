@@ -6,11 +6,17 @@
 @import 'global.scss';
 @import 'layout.scss';
 
+@import 'components/block-duration-timer.scss';
 @import 'components/create-template.scss';
+@import 'components/dropdown.scss';
 @import 'components/header.scss';
 @import 'components/sidebar.scss';
-@import 'components/template-block-details.scss';
+@import 'components/search-bar.scss';
+@import 'components/blockdetails.scss';
 @import 'components/template-block.scss';
+@import 'components/template-dropdown-list.scss';
+@import 'components/toggle.scss';
 
+@import 'pages/filters.scss';
 @import 'pages/layout.scss';
 @import 'pages/template-block-page.scss';

@@ -1,16 +1,10 @@
-.template-block {
+.template-card {
 
     @apply rounded-lg w-full border border-gray-200 bg-white dark:bg-gray-700 dark:border-gray-600 p-5;
 
-    &.my-template {
+    .card-head {
 
-        @apply border-amber-300;
-        
-    }
-
-    .block-head {
-
-        @apply pb-3 border-gray-200 dark:border-gray-600 flex items-center justify-between;
+        @apply pb-3 flex items-center justify-between gap-5;
 
         .title {
 
@@ -20,7 +14,7 @@
 
         .icons-wrapper {
 
-            @apply relative;
+            @apply relative flex items-center gap-1 flex-nowrap;
 
             .icon {
 
@@ -56,16 +50,17 @@
                 }
                 
             }
-    
-            .icon + .icon {
 
-                @apply ml-1;
-
-            }
         }
     }
 
-    .block-body {
+    .divider {
+
+        @apply block h-[1px] w-full bg-gray-200 dark:bg-gray-600;
+
+    }
+
+    .card-body {
 
         @apply pt-3;
 
@@ -81,15 +76,38 @@
 
     }
 
+    &.my-template {
+
+        @apply border-amber-300;
+
+    }
+
     &.active {
 
-        @apply border-emerald-300 bg-emerald-50 dark:border-gray-200 dark:bg-gray-700;
+        @apply border-emerald-300 bg-emerald-50 dark:border-gray-200 dark:bg-gray-600;
 
+        .card-head {
+
+            .icon {
+
+                &.more-icon {
+
+                    @apply hidden;
+        
+                }
+            }
+        }
+
+        .divider {
+
+            @apply dark:bg-gray-500;
+    
+        }
     }
 
 }
 
-.template-block + .template-block {
+.template-card + .template-card {
 
     @apply mt-5;
 
