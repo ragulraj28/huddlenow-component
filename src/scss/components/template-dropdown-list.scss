@@ -4,11 +4,11 @@
 
     .category-wrapper {
 
-        @apply p-5 flex flex-col gap-5;
+        @apply flex flex-col py-2.5;
 
-        .temp-category {
+        .template-category {
 
-            @apply flex items-center;
+            @apply flex items-center px-5 py-2.5 hover:bg-gray-100 dark:hover:bg-gray-600 cursor-pointer;
 
             p {
 
@@ -18,7 +18,7 @@
 
             input {
 
-                @apply relative h-5 w-5 appearance-none;
+                @apply relative h-5 w-5 appearance-none cursor-pointer;
 
                 &:before {
 
@@ -50,7 +50,7 @@
 
         .divider {
 
-            @apply h-[1px] bg-gray-200 dark:bg-gray-600;
+            @apply block h-[1px] bg-gray-200 dark:bg-gray-600 my-2.5 mx-5;
 
         }
 
@@ -84,7 +84,6 @@
 
         }
 
-        
     }
 
 }

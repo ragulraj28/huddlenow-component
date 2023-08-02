@@ -1,6 +1,6 @@
-.searchbar {
+.searchbar-wrapper {
 
-    @apply flex items-center gap-2 w-auto border border-gray-200 dark:border-gray-700 px-2.5 rounded-md h-9;
+    @apply relative flex items-center gap-2 w-auto border border-gray-200 dark:border-gray-700 pl-2.5 pr-8 rounded-md;
 
     .icon {
 
@@ -10,21 +10,21 @@
 
         }
 
+        &.close {
+
+            @apply absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer;
+
+        }
+
     }
 
     input {
 
-        @apply text-sm text-gray-600 dark:text-gray-300 capitalize h-full w-full bg-transparent cursor-text;
+        @apply text-sm text-gray-600 py-1.5 dark:text-gray-300 outline-none w-full bg-transparent cursor-text;
 
         &::placeholder {
 
-            @apply text-gray-400;
-
-        }
-
-        &:focus {
-
-            @apply hidden;
+            @apply text-gray-400 ;
 
         }
 

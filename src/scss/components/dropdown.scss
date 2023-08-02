@@ -1,6 +1,6 @@
-.dropdown {
+.dropdown-wrapper {
 
-    @apply flex items-center px-2.5 py-2 border border-gray-200 dark:border-gray-700 rounded-md gap-2.5 h-9;
+    @apply flex items-center px-2.5 py-1.5 border border-gray-200 dark:border-gray-700 rounded-md gap-2.5 cursor-pointer;
 
     .label {
 

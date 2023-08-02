@@ -1,4 +1,4 @@
-.create-temp {
+.create-template {
 
     @apply w-full p-5 border border-gray-200 dark:border-gray-700 rounded-lg;
 
@@ -27,28 +27,22 @@
     }
 
 
-    .create-temp-header {
+    .create-template-header {
 
         @apply flex items-center mb-5;
 
-        .temp-title {
+        .template-title {
 
             @apply flex gap-2.5 w-full mr-3;
 
             input {
 
-                @apply w-full text-xl font-medium bg-transparent text-gray-600 dark:text-white;
+                @apply w-full text-xl font-medium outline-none bg-transparent text-gray-600 dark:text-white;
             
                 &::placeholder {
 
                     @apply text-gray-600 dark:text-white;
                     
-                }
-
-                &:focus {
-
-                    @apply hidden;
-
                 }
 
             }
@@ -69,19 +63,11 @@
 
     }
 
-    .create-temp-content {
-
-        @apply h-full;
+    .create-template-content {
 
         textarea {
 
-            @apply w-full text-lg resize-none bg-transparent overflow-y-auto text-gray-500 dark:text-gray-300;
-
-            &:focus {
-
-                @apply hidden;
-                
-            }
+            @apply w-full text-lg resize-none bg-transparent outline-none overflow-y-auto text-gray-500 dark:text-gray-300;
 
         }
 
