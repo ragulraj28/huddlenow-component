@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/huddlenowcomponent/static/css/main.c863fb90.css",
+    "main.js": "/huddlenowcomponent/static/js/main.cf151b96.js",
+    "static/js/787.2b867f31.chunk.js": "/huddlenowcomponent/static/js/787.2b867f31.chunk.js",
+    "static/media/user.png": "/huddlenowcomponent/static/media/user.a8d399c80c1648feb579.png",
+    "index.html": "/huddlenowcomponent/index.html",
+    "static/media/settings.svg": "/huddlenowcomponent/static/media/settings.f831f9024765949390fe15ec396ad5a0.svg",
+    "static/media/connect.svg": "/huddlenowcomponent/static/media/connect.1eb76b7f20aa22d08f4e506e0cc0a09f.svg",
+    "static/media/archive.svg": "/huddlenowcomponent/static/media/archive.82921ea9cb21da45e6757f30f4ae9bdc.svg",
+    "static/media/signout.svg": "/huddlenowcomponent/static/media/signout.2c33e261f0e6c62b4514e4c31f61f230.svg",
+    "static/media/calender.svg": "/huddlenowcomponent/static/media/calender.c801b4c14de7cd9dd0b8c8ace735afb0.svg",
+    "main.c863fb90.css.map": "/huddlenowcomponent/static/css/main.c863fb90.css.map",
+    "main.cf151b96.js.map": "/huddlenowcomponent/static/js/main.cf151b96.js.map",
+    "787.2b867f31.chunk.js.map": "/huddlenowcomponent/static/js/787.2b867f31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c863fb90.css",
+    "static/js/main.cf151b96.js"
+  ]
+}
