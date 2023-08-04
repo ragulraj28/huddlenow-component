@@ -2,9 +2,9 @@
 
     @apply w-full p-5 border border-gray-200 dark:border-gray-700 rounded-lg;
 
-    .icon {
+    cursor:grab;
 
-        @apply cursor-pointer;
+    .icon {
 
         svg {
 
@@ -51,7 +51,7 @@
 
         .config-col {
 
-            @apply flex p-2 border border-gray-200 dark:border-gray-700 rounded-md;
+            @apply flex p-2 border border-gray-200 dark:border-gray-700 rounded-md cursor-pointer;
 
             div + div {
 
